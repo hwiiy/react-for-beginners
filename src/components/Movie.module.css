@@ -1,0 +1,78 @@
+
+body{
+    margin-left: 40px;
+}
+.movie{
+   float: left;
+   display: flex;
+   align-items: center;
+   margin: 5px;
+   position: relative;
+  
+}
+.imgWrap{
+    width: 350px;
+    height: 540px;
+}
+.movieImg{
+    width: 350px;
+    height: 540px;
+    display: block;
+    
+}
+
+.figcaption{
+    float: left;
+    width: 350px;
+    height: 540px;
+   background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: relative;
+    bottom: 540px;
+    opacity: 0;
+
+}
+
+.Link, .Link:visited  {
+text-decoration: none;
+color: antiquewhite;
+
+}
+.figcaption:hover{
+    opacity: 1;
+}
+
+.info{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px 20px;
+    margin-top: 70px;
+   
+}
+.movieTitle{
+    text-decoration-line: none ;
+    color: rgb(255, 217, 120);
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    font-size: 35px;
+    
+}
+.figcaption p{
+    height: 200px;
+    font-size: 20px;
+    overflow: hidden;
+
+    
+}
+.figcaption ul{
+    height: 80px;
+}
+.genres{
+    background-color: goldenrod;
+    text-align: center;
+}
+.figcaption ul li {
+    box-sizing: border-box;
+    margin-left: 10px;
+    list-style-type: none;
+    font-size: 15px;
+}
